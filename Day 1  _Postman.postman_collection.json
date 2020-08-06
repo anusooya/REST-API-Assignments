@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "a118f7c8-17cc-481d-b66a-fb4340f9a2fc",
+		"name": "Day 1  _Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Change Request",
+			"item": [
+				{
+					"name": "Create Change Request without body",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://dev88015.service-now.com/api/now/table/change_request",
+							"protocol": "https",
+							"host": [
+								"dev88015",
+								"service-now",
+								"com"
+							],
+							"path": [
+								"api",
+								"now",
+								"table",
+								"change_request"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Change Request with body",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://dev88015.service-now.com/api/now/table/change_request",
+							"protocol": "https",
+							"host": [
+								"dev88015",
+								"service-now",
+								"com"
+							],
+							"path": [
+								"api",
+								"now",
+								"table",
+								"change_request"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "JIRA",
+			"item": [
+				{
+					"name": "Get All Issues",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create a new issue in Jira",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api-may2020.atlassian.net/rest/api/2/issue/",
+							"protocol": "https",
+							"host": [
+								"api-may2020",
+								"atlassian",
+								"net"
+							],
+							"path": [
+								"rest",
+								"api",
+								"2",
+								"issue",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "basic",
+				"basic": [
+					{
+						"key": "password",
+						"value": "60beSkCr05XHzsMLUfVYD8A7",
+						"type": "string"
+					},
+					{
+						"key": "username",
+						"value": "hari.radhakrishnan@testleaf.com",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "539562bc-6e81-4451-8295-bdffa7312e8d",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "f13bd8c8-9df2-4011-a9be-631f46ae19e2",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "wH2ndGE8OnZf",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "admin",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "45f324b8-d487-414e-bcb5-c51fd424d436",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f9947174-61c3-45d8-ad7e-7b4ed5c32efa",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
